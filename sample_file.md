@@ -23,6 +23,18 @@ summary(cars)
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
+``` r
+head(cars)
+```
+
+    ##   speed dist
+    ## 1     4    2
+    ## 2     4   10
+    ## 3     7    4
+    ## 4     7   22
+    ## 5     8   16
+    ## 6     9   10
+
 ## Including Plots
 
 You can also embed plots, for example:
@@ -31,3 +43,9 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+``` r
+plot(cars)
+```
+
+![](sample_file_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
